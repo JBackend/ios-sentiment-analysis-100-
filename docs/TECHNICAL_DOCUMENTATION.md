@@ -106,7 +106,7 @@ This document explains how I developed this tool. Whether you're a developer, da
 ```
 
 **1. Business Understanding**
-- Goal: Improve AllTrails app based on user feedback
+- Goal: Improve app based on user feedback
 - Success criteria: Actionable insights for product team
 
 **2. Data Understanding**
@@ -179,7 +179,7 @@ This document explains how I developed this tool. Whether you're a developer, da
 
 **Data Source**: Apple iTunes RSS Feed
 - **URL Pattern**: `https://itunes.apple.com/{country}/rss/customerreviews/page={page}/id={app_id}/json`
-- **AllTrails App ID**: 405075943
+- **App ID**: 405075943
 - **Data Format**: JSON responses converted to structured CSV
 
 **Ethical Data Collection:**
@@ -357,7 +357,7 @@ Version 25.7.40: 76.7% Positive (Good but declining)
 ### 3. Future ML Enhancements
 **Planned Improvements**:
 1. **Custom Classification Model**:
-   - Train on AllTrails-specific data
+   - Train on app-specific data
    - Improve accuracy from 85% to 90%+
    - Handle hiking/outdoor-specific language
 
