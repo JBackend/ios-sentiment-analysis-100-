@@ -453,7 +453,6 @@ import json                  # JSON parsing
 
 # Statistical Analysis  
 from collections import Counter  # Frequency counting
-import matplotlib.pyplot as plt  # Visualization (future)
 ```
 
 ### 2. Architecture Patterns
