@@ -1,11 +1,11 @@
-# AllTrails App Store Sentiment Analysis - Technical Documentation
+# App Store Sentiment Analysis - Technical Documentation
 
 ## Overview for All Readers
 
 This document explains how I developed this tool. Whether you're a developer, data scientist, or business stakeholder, this guide will help you understand both the technical implementation and the data science behind our sentiment analysis system.
 
 **What This System Does:**
-- Automatically collects AllTrails app reviews from Apple's App Store
+- Automatically collects app reviews from Apple's App Store
 - Analyzes the emotional tone (positive, negative, neutral) of each review
 - Identifies common complaints and praise patterns
 - Compares user satisfaction across different app versions
