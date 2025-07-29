@@ -2,7 +2,7 @@
 
 ## Overview for All Readers
 
-This document explains how we built an automated system to analyze what people think about the AllTrails hiking app by studying App Store reviews. Whether you're a developer, data scientist, or business stakeholder, this guide will help you understand both the technical implementation and the data science behind our sentiment analysis system.
+This document explains how I developed this tool. Whether you're a developer, data scientist, or business stakeholder, this guide will help you understand both the technical implementation and the data science behind our sentiment analysis system.
 
 **What This System Does:**
 - Automatically collects AllTrails app reviews from Apple's App Store
@@ -59,10 +59,10 @@ This document explains how we built an automated system to analyze what people t
 - **Output**: Polarity score from -1.0 (very negative) to +1.0 (very positive)
 
 **Why This Method:**
-- ✅ **Fast**: Processes reviews in real-time
-- ✅ **Reliable**: Consistent results across different text types
-- ✅ **Interpretable**: Easy to explain to stakeholders
-- ❌ **Limitation**: May miss context-specific sentiment (e.g., sarcasm)
+- **Fast**: Processes reviews in real-time
+- **Reliable**: Consistent results across different text types
+- **Interpretable**: Easy to explain to stakeholders
+- **Limitation**: May miss context-specific sentiment (e.g., sarcasm)
 
 #### C. **Statistical Analysis Methods**
 *What it means: Using mathematics to find patterns and relationships in data*
@@ -183,10 +183,10 @@ This document explains how we built an automated system to analyze what people t
 - **Data Format**: JSON responses converted to structured CSV
 
 **Ethical Data Collection:**
-- ✅ **Public Data Only**: Reviews are publicly available
-- ✅ **Rate Limiting**: 1-second delays between requests
-- ✅ **Terms Compliance**: Follows Apple's usage guidelines
-- ✅ **No Personal Data**: Only public usernames and review content
+- **Public Data Only**: Reviews are publicly available
+- **Rate Limiting**: 1-second delays between requests
+- **Terms Compliance**: Follows Apple's usage guidelines
+- **No Personal Data**: Only public usernames and review content
 
 ### Data Structure
 Each review contains:
@@ -534,5 +534,3 @@ SENTIMENT_THRESHOLDS = {
 - Understand customer language for messaging
 - Track brand sentiment over time
 - Competitive intelligence from review comparisons
-
-This comprehensive technical documentation serves both technical implementers and business stakeholders, providing the depth needed for implementation while remaining accessible for strategic decision-making.
